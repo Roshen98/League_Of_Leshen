@@ -4,6 +4,8 @@ Website link: https://slp.shenroger.repl.co/
 
 A web-based RPG game that involves the use of HTML, CSS and Javascript. This project is to protray some stories from the game League of Legend created by Riot.
 
+NOTE: Laptop and Computer Games Only. It will not work on the phone or ipad.
+
 Project Roles:
 
 TheUnseenBlade - Liangjie Shen(Roger) 
