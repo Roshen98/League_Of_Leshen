@@ -9,7 +9,7 @@ function showElement() {
 $("#beginStoryBtn").on("click", function()
 {
   location.href = "gameplay.html";
-  var audio = new Audio("/assets/story_music.mp3");
+  var audio = new Audio("assets/story_music.mp3");
   audio.loop = true;
   audio.play();
 });
@@ -21,7 +21,7 @@ function login(element){
   
   if(element.keyCode == 13 || element.button == 0){
     event.preventDefault();
-    var audio = new Audio("/assets/background_music.mp3");
+    var audio = new Audio("assets/background_music.mp3");
     audio.loop = true;
     audio.play();
     var pName = $("#playerName").val();
