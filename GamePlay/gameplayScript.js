@@ -48,7 +48,7 @@ var w_shield = 90; // 30
 var e_ability_damage = 120;
 var r_ability_damage = 400;
 let diana_health = diana_full_health;
-diana.src = "/assets/small_diana.png";
+diana.src = "assets/small_diana.png";
 // diana.width = 200;
 // diana.height = 200;
 diana.onload = function () {
@@ -64,7 +64,7 @@ var red_buff_full_health = 1850; // original health : 1850
 var red_buff_damage = 78;
 
 let red_buff_health = red_buff_full_health;
-red_buff.src = "/assets/red_buff.png";
+red_buff.src = "assets/red_buff.png";
 red_buff.onload = function () {
 	context.drawImage(red_buff, 160, 60, 200,200);
 };
@@ -109,14 +109,14 @@ function diana_attack(element){
 
     // E on diana
     const e_ability = new Image();
-    e_ability.src = "/assets/e_shadow.png";
+    e_ability.src = "assets/e_shadow.png";
     e_ability.onload = function () {
       context.drawImage(e_ability,30,40,140,150);
     }; 
 
     setTimeout(() => { 
       const lunar_rush = new Image();
-      lunar_rush.src = "/assets/lunar_rush.png";
+      lunar_rush.src = "assets/lunar_rush.png";
       lunar_rush.onload = function () {
         context.drawImage(lunar_rush,90,20,140,200);
       }
@@ -138,7 +138,7 @@ function diana_attack(element){
 
       // Recreate Diana 
       var recreate_diana = new Image();
-      recreate_diana.src = "/assets/small_diana.png";
+      recreate_diana.src = "assets/small_diana.png";
       // diana.width = 200;
       // diana.height = 200;
       recreate_diana.onload = function () {
@@ -153,7 +153,7 @@ function diana_attack(element){
       // Recreate Monster1
       setTimeout(() => { 
         const recreate_red_buff = new Image();
-        recreate_red_buff.src = "/assets/red_buff.png";
+        recreate_red_buff.src = "assets/red_buff.png";
         recreate_red_buff.onload = function () {
           context.drawImage(red_buff, 160, 60, 200,200);
         };
@@ -161,7 +161,7 @@ function diana_attack(element){
 
       setTimeout(() => { 
         const red_buff_attack = new Image();
-        red_buff_attack.src = "/assets/scar.png";
+        red_buff_attack.src = "assets/scar.png";
         red_buff_attack.onload = function () {
           context.drawImage(red_buff_attack,50,50,100,100);
         }; 
@@ -189,7 +189,7 @@ function diana_attack(element){
 
           // damaged_diana
           const damaged_diana = new Image();
-          damaged_diana.src = "/assets/small_diana.png";
+          damaged_diana.src = "assets/small_diana.png";
           damaged_diana.onload = function () {
             context.drawImage(damaged_diana, 0, 80);
           };
@@ -211,7 +211,7 @@ function diana_attack(element){
 
           // recreate monster
           const recreate_red_buff = new Image();
-          recreate_red_buff.src = "/assets/red_buff.png";
+          recreate_red_buff.src = "assets/red_buff.png";
           recreate_red_buff.onload = function () {
             context.drawImage(red_buff, 160, 60, 200,200);
           };
@@ -293,7 +293,7 @@ function diana_attack(element){
 
     // R on diana
     const r_ability = new Image();
-    r_ability.src = "/assets/moonfall.png";
+    r_ability.src = "assets/moonfall.png";
     r_ability.onload = function () {
       context.drawImage(r_ability,140,50,140,140);
     }; 
@@ -314,7 +314,7 @@ function diana_attack(element){
 
       // Recreate Diana 
       var recreate_diana = new Image();
-      recreate_diana.src = "/assets/small_diana.png";
+      recreate_diana.src = "assets/small_diana.png";
       // diana.width = 200;
       // diana.height = 200;
       recreate_diana.onload = function () {
@@ -329,7 +329,7 @@ function diana_attack(element){
       // Recreate Monster1
       setTimeout(() => { 
         const recreate_red_buff = new Image();
-        recreate_red_buff.src = "/assets/red_buff.png";
+        recreate_red_buff.src = "assets/red_buff.png";
         recreate_red_buff.onload = function () {
           context.drawImage(red_buff, 160, 60, 200,200);
         };
@@ -337,7 +337,7 @@ function diana_attack(element){
 
       setTimeout(() => { 
         const red_buff_attack = new Image();
-        red_buff_attack.src = "/assets/scar.png";
+        red_buff_attack.src = "assets/scar.png";
         red_buff_attack.onload = function () {
           context.drawImage(red_buff_attack,50,50,100,100);
         }; 
@@ -365,7 +365,7 @@ function diana_attack(element){
 
           // damaged_diana
           const damaged_diana = new Image();
-          damaged_diana.src = "/assets/small_diana.png";
+          damaged_diana.src = "assets/small_diana.png";
           damaged_diana.onload = function () {
             context.drawImage(damaged_diana, 0, 80);
           };
@@ -387,7 +387,7 @@ function diana_attack(element){
 
           // recreate monster
           const recreate_red_buff = new Image();
-          recreate_red_buff.src = "/assets/red_buff.png";
+          recreate_red_buff.src = "assets/red_buff.png";
           recreate_red_buff.onload = function () {
             context.drawImage(red_buff, 160, 60, 200,200);
           };
@@ -459,7 +459,7 @@ function diana_attack(element){
   else if(element.keyCode == 87){
     // if w pressed on keyboard 
     const w_ability = new Image();
-    w_ability.src = "/assets/pale_cascade.png";
+    w_ability.src = "assets/pale_cascade.png";
     w_ability.onload = function () {
       context.drawImage(w_ability,35,70,50,110);
     }; // W on diana
@@ -468,7 +468,7 @@ function diana_attack(element){
     setTimeout(() => { 
       const red_buff_attack = new Image();
       // blocked
-      red_buff_attack.src = "/assets/scar.png";
+      red_buff_attack.src = "assets/scar.png";
       red_buff_attack.onload = function () {
         context.drawImage(red_buff_attack,50,50,100,100);
       }; 
@@ -495,7 +495,7 @@ function diana_attack(element){
 
         // damaged_diana
         const damaged_diana = new Image();
-        damaged_diana.src = "/assets/diana_2_orbits.png";
+        damaged_diana.src = "assets/diana_2_orbits.png";
         damaged_diana.onload = function () {
           context.drawImage(damaged_diana,35,70,50,110);
         };
@@ -520,7 +520,7 @@ function diana_attack(element){
 
         // damaged_diana
         const damaged_diana = new Image();
-        damaged_diana.src = "/assets/one_orb.png";
+        damaged_diana.src = "assets/one_orb.png";
         damaged_diana.onload = function () {
           context.drawImage(damaged_diana,35,70,50,110);
         };
@@ -546,7 +546,7 @@ function diana_attack(element){
 
         // damaged_diana
         const damaged_diana = new Image();
-        damaged_diana.src = "/assets/diana_just_shield.png";
+        damaged_diana.src = "assets/diana_just_shield.png";
         damaged_diana.onload = function () {
           context.drawImage(damaged_diana,35,70,50,110);
         };
@@ -567,7 +567,7 @@ function diana_attack(element){
 
       // Recreate Diana 
       var recreate_diana = new Image();
-      recreate_diana.src = "/assets/small_diana.png";
+      recreate_diana.src = "assets/small_diana.png";
       // diana.width = 200;
       // diana.height = 200;
       recreate_diana.onload = function () {
@@ -582,7 +582,7 @@ function diana_attack(element){
       setTimeout(() => { 
         // Recreate monster
         const recreate_red_buff = new Image();
-        recreate_red_buff.src = "/assets/red_buff.png";
+        recreate_red_buff.src = "assets/red_buff.png";
         recreate_red_buff.onload = function () {
           context.drawImage(red_buff, 160, 60, 200,200);
         };
@@ -634,7 +634,7 @@ function diana_attack(element){
     const q_ability = new Image();
     red_buff_health -= q_ability_damage;
   
-    q_ability.src = "/assets/crescent_strike.png";
+    q_ability.src = "assets/crescent_strike.png";
     q_ability.onload = function () {
       context.drawImage(q_ability,80,100,200,70);
     };
@@ -656,7 +656,7 @@ function diana_attack(element){
 
       // Recreate Diana 
       var recreate_diana = new Image();
-      recreate_diana.src = "/assets/small_diana.png";
+      recreate_diana.src = "assets/small_diana.png";
       // diana.width = 200;
       // diana.height = 200;
       recreate_diana.onload = function () {
@@ -671,7 +671,7 @@ function diana_attack(element){
       setTimeout(() => { 
         // Recreate monster
         const recreate_red_buff = new Image();
-        recreate_red_buff.src = "/assets/red_buff.png";
+        recreate_red_buff.src = "assets/red_buff.png";
         recreate_red_buff.onload = function () {
           context.drawImage(red_buff, 160, 60, 200,200);
         };
@@ -680,7 +680,7 @@ function diana_attack(element){
       // monster attack
       setTimeout(() => { 
         const red_buff_attack = new Image();
-        red_buff_attack.src = "/assets/scar.png";
+        red_buff_attack.src = "assets/scar.png";
         red_buff_attack.onload = function () {
           context.drawImage(red_buff_attack,50,50,100,100);
         }; 
@@ -708,7 +708,7 @@ function diana_attack(element){
 
           // damaged_diana
           const damaged_diana = new Image();
-          damaged_diana.src = "/assets/small_diana.png";
+          damaged_diana.src = "assets/small_diana.png";
           damaged_diana.onload = function () {
             context.drawImage(damaged_diana, 0, 80);
           };
@@ -730,7 +730,7 @@ function diana_attack(element){
 
           // recreate monster
           const recreate_red_buff = new Image();
-          recreate_red_buff.src = "/assets/red_buff.png";
+          recreate_red_buff.src = "assets/red_buff.png";
           recreate_red_buff.onload = function () {
             context.drawImage(red_buff, 160, 60, 200,200);
           };
