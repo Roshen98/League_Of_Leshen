@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(/assets/gameplay_background.jpeg);
+  background-image: url(assets/gameplay_background.jpeg);
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -23,14 +23,14 @@ body {
   color: white;
   background: white;
   border-radius: 25px;
-  background-image: url(/assets/zed.jpg);
+  background-image: url(assets/zed.jpg);
   font-size: 8.5px;
 }
 
 
 .music{
   border-radius: 25px;
-  background-image: url(/assets/zed.jpg);
+  background-image: url(assets/zed.jpg);
   color: yellow;
   margin: 0;
   position: absolute;
@@ -51,7 +51,7 @@ body {
 }
 
 #game-canvas{
-  background-image: url(/assets/diana-forest.jpg);
+  background-image: url(assets/diana-forest.jpg);
   background-size: 350px 200px; 
   display: inline-block;
   position: relative;
@@ -61,35 +61,35 @@ body {
 #passive {
   height: 20px;
   width: 20px;
-  background-image: url(/assets/passive.png);
+  background-image: url(assets/passive.png);
   background-size: 20px 20px;
 }
 
 #q{
   height: 30px;
   width:30px;
-  background-image: url(/assets/Q.png);
+  background-image: url(assets/Q.png);
   background-size: 30px 30px;
 }
 
 #w {
   height: 30px;
   width: 30px;
-  background-image: url(/assets/W.png);
+  background-image: url(assets/W.png);
   background-size: 30px 30px;
 }
 
 #e {
   height: 30px;
   width: 30px;
-  background-image: url(/assets/E.png);
+  background-image: url(assets/E.png);
   background-size: 30px 30px;
 }
 
 #r {
   height: 30px;
   width: 30px;
-  background-image: url(/assets/R.png);
+  background-image: url(assets/R.png);
   background-size: 30px 30px;
 }
 
@@ -113,7 +113,7 @@ h3{
   color: white;
   background: white;
   border-radius: 25px;
-  background-image: url(/assets/zed.jpg);
+  background-image: url(assets/zed.jpg);
   font-size: 8.8px;
 
 }
