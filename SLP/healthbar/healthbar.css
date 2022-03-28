@@ -1,0 +1,30 @@
+.health {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  background: black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.health_fill {
+  width: 0%;
+  height: 100%;
+  background: #93C572;
+  transition: all 0.2s;
+}
+
+.health_text {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font: bold 14px "Quicksand", sans-serif;
+  color: #ffffff;
+}
+
+#canvas {
+  background: #ABABAB;
+  position: relative;
+  z-index: 1;
+}

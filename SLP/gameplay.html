@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="/GamePlay/gameplay.css" rel="stylesheet" type="text/css" />
+
+
+  <!-- At bottom of the screen, dialogue will be displayed that shows the story text as the player clicks through. -->
+  
+  
+</head>
+
+<body>
+
+  <audio id="myAudio">
+  <source src="/assets/story_music.mp3" type="audio/mpeg">
+</audio>
+  <button class = "music" onclick="playAudio()" type="button">Let The Battle Begin!!!</button>
+  
+  <div class="game-container">
+    
+      <button id = "next" onclick = "next_visible()" >NEXT </button>
+      
+      <p id = "storyline">Watch out! There are monsters surrounding you :O</p>
+      
+      <canvas id="game-canvas" width="350" height="198"></canvas>
+      <!--  width="350" height="198" -->
+      
+      <div class="monsterhealth">
+      <div class="monster_fill">HP</div>
+      <span class="monster_text">0%</span>
+    </div>
+
+      <div class="health">
+        <div class="health_fill">HP</div>
+        <span class="health_text">0%</span>
+      </div>  
+      
+    
+      
+      <div id="actionBar" >
+        <button id="passive" title="PASSIVE
+        MOONSILVER BLADE
+        Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains Attack Speed for her next 3 attacks."></button>
+
+        <button id="q" title ="Q - CRESCENT STRIKE [Magic Damage: 60]
+        Unleashes a bolt of lunar energy in an arc dealing magic damage. Afflicts enemies struck with Moonlight, revealing them if they are not stealthed for 3 seconds."></button>
+
+        <button id="w" title = "W - PALE CASCADE [Shield Strength: 30; Magic Damage per Orb: 18 Total 54]
+        Diana creates three orbiting spheres that detonate on contact with enemies to deal damage in an area. She also gains a temporary shield that absorbs damage. If her third sphere detonates, the shield gains additional strength."></button>
+
+        <button id="e" title = "E - LUNAR RUSH [Magic Damage: 40]
+        Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage. Lunar Rush has no cooldown when used to dash to an enemy afflicted with Moonlight. All other enemies will have the Moonlight debuff removed regardless of whether they were the target of Lunar Rush."></button>
+        
+
+        <button id="r" title = "R - MOONFALL [Magic Damage: 200; Increased Magic Damage per Champion: 35; Slow: 40]
+        Diana reveals and draws in all nearby enemies and slows them. If Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled."></button>
+
+         <h3>Move your mouse to the abilities to see how they work!</h3>
+      </div>
+   
+     
+  </div>
+  	<script src="/GamePlay/gameplayScript.js"></script>
+    <!--<script src="/GamePlay/gameInit.js"></script>-->
+
+ 
+
+
+
+</body>
+
+</html>
+
