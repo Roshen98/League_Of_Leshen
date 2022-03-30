@@ -1,10 +1,11 @@
 # League_Of_Leshen
 
 Website link: https://slp.shenroger.repl.co/
+OR https://roshen98.github.io/League_Of_Leshen/
 
 A web-based RPG game that involves the use of HTML, CSS and Javascript. This project is to protray some stories from the game League of Legend created by Riot.
 
-NOTE: Laptop and Computer Games Only. It will not work on the phone or ipad.
+NOTE: Laptop and Computer Games Only. It will not work on the phone or ipad. Please zoom out if the size is not right.
 
 Project Roles:
 
