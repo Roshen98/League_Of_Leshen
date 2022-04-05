@@ -7,22 +7,24 @@ A web-based RPG game that involves the use of HTML, CSS and Javascript. This pro
 
 NOTE: Laptop and Computer Games Only. It will not work on the phone or ipad. Please zoom out if the size is not right.
 
+Project Team Members:
+
+Liangjie Shen
+
+Mohraiel
+
+Rosalu
+
+Trina
+
+Madi
+
+Erika
+
+
 Project Roles:
 
-TheUnseenBlade - Liangjie Shen(Roger) 
-
-pizzamo - Mohraiel
-
-thankfulturtle - Rosalu
-
-lazy soup - Trina
-
-Mady/dx - Madi
-
-nekkektek - Erika
-
-
-Project Leader: Liangjie Shen(Roger)
+Project Leader - Liangjie Shen
 
 Coder or Programmer - pizzamo(helper), nekkektek(helper), thankfulturtle(primary), lazy soup(primary)
 
