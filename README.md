@@ -23,6 +23,7 @@ nekkektek - Erika
 
 
 Project Leader: Liangjie Shen(Roger)
+
 Coder or Programmer - pizzamo(helper), nekkektek(helper), thankfulturtle(primary), lazy soup(primary)
 
 Drawing animated characters or Artist - pizzamo(primary)
